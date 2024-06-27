@@ -1,0 +1,95 @@
+/* Styles généraux pour le thème sombre */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #202124;
+    color: #e0e0e0;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Empile les éléments verticalement */
+    align-items: center; /* Centre les éléments horizontalement */
+    justify-content: center; /* Centre les éléments verticalement */
+    width: 400px;
+    height: 150px;
+}
+
+div {
+    margin-bottom: 10px;
+    text-align: left; /* Aligne le texte à gauche à l'intérieur des div */
+}
+
+
+
+button {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border: 1px solid #333;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+input {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border: 1px solid #333;
+    padding: 5px;
+    width: calc(100% - 12px); /* pour tenir compte du padding et du border */
+}
+
+img.clickable_right {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    align-self: flex-end; /* Aligne l'image à droite */
+}
+
+input[type="email"] {
+    width: calc(100% - 12px);
+}
+
+button.green{
+    background-color: #27b652;
+    color: #e0e0e0;
+    border: 1px solid #333;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button.red{
+    background-color: #d30f0f;
+    color: #e0e0e0;
+    border: 1px solid #333;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.url_button {
+    background-color: #007bff; /* Couleur différente pour le bouton URL */
+    color: #e0e0e0;
+    border: 1px solid #333;
+    cursor: pointer;
+}
+
+.center-container {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+  
+.center-container button {
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px; /* Espacement entre les boutons */
+  }
+  
+.center-container button:last-child {
+    margin-right: 0; /* Supprime l'espacement pour le dernier bouton */
+}
+  
+.center-container button:hover {
+    background-color: #333;
+  }

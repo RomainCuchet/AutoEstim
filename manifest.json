@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "AutoEstim",
+    "version": "1.0",
+    "action": {
+      "default_popup": "popups/home.html",
+      "default_icon": "icons/logo.png"
+    },
+    "background": {
+        "service_worker": "scripts/background.js"
+    },
+    "permissions": ["storage","activeTab","downloads"]
+}
+  
